@@ -14,7 +14,7 @@ export default function Header() {
         <Link className="reserva" to="/reservas">
             <div>
                 <strong>Minhas reservas</strong>
-                <span>0 reservas</span>
+                <span>3 reservas</span>
             </div>
         </Link>
     </header>
