@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+import { removeReserve } from '../../store/models/reserve/actions'
 import {MdDelete} from 'react-icons/md'
 
 import './styles.css'
@@ -9,10 +10,7 @@ export default function Reservas() {
   const reserves = useSelector(state => state.reserve)
 
   function handleRemove(id){
-    dispatch({
-      type: 'REMOVE_RESERVE',
-      id,
-    })
+    dispatch(removeReserve(id))
   }
 
   return (
