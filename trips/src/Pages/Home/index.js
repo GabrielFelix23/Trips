@@ -41,8 +41,8 @@ export default function Home() {
               <div>
                 <MdFlightTakeoff size={16} color="#fff"/>
               </div>
+              <span>SOLICITAR RESERVA</span>
             </button>
-            <span>SOLICITAR RESERVA</span>
           </li>
         ))}
       </div>
